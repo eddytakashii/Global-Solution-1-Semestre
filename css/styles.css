@@ -1,9 +1,0 @@
-body{
-    font-family:Poppins;
-}
-
-.carousel-inner,img{
-    max-height: 300px;
-    width: auto;
-    object-fit: cover;
-}
