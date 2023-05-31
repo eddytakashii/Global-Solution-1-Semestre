@@ -3,10 +3,11 @@ body{
 }
 
 .container{
-  margin-left: 270px;
+  margin-left: 250px;
   margin-right: 6px;
   overflow: hidden;
   border-right: 2px solid  rgb(10, 235, 223);
+  border-left: 2px solid rgb(10, 235, 223) ;
 }
 
 .carousel-inner,img{
@@ -21,12 +22,15 @@ nav.menu-lateral{
   height: 100%;
   padding: 20px 0 20px 1%;
   margin-right: 5%;
-  box-shadow: 2px 0 1px rgb(10, 235, 223);
 }
 
 ul{
   height: 100%;
   list-style-type: none;
+  margin-left: -19px;
+  background-color: #40cb3ed9;
+  margin-top: 21px;
+  height: 100%;
 }
 
 ul li.item-menu{
@@ -38,9 +42,9 @@ ul li.item-menu:hover{
 }
 
 ul li.item-menu a{
-  color: green;
-  text-decoration: none;
-  font-size: 20px;
+  color: white;
+  text-decoration:none;
+  font-size:20px;
   padding:20px 4%;
   display: flex;
   margin-bottom: 20px;
@@ -53,4 +57,10 @@ ul li.item-menu a .txt-link{
 
 ul li .item-menu a .icon > i{
   font-size: 40px;
+}
+
+/*Página 01*/
+.card{
+  height: 400px;
+  width: 100%;
 }
