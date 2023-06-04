@@ -1,14 +1,29 @@
 body{
     font-family:Poppins;
 }
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #26c58f;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 26px;
+}
 
 .container{
-  margin-left: 250px;
+  margin-left: 300px;
   margin-right: 6px;
   overflow: hidden;
-  border-right: 2px solid  rgb(10, 235, 223);
-  border-left: 2px solid rgb(10, 235, 223) ;
+  
 }
+
+
+.card-body{
+  background-color: #e7e3e336;
+}
+
+
 
 .carousel-inner,img{
     max-height: 300px;
@@ -20,17 +35,20 @@ nav.menu-lateral{
   position: fixed;
   width: 250px;
   height: 100%;
-  padding: 20px 0 20px 1%;
+  padding: 0px 0 0px 1%;
   margin-right: 5%;
+  margin-top: -20px;
 }
 
 ul{
   height: 100%;
   list-style-type: none;
-  margin-left: -19px;
-  background-color: #40cb3ed9;
+  margin-left: -45px;
+  background-color: #1f7e55;
   margin-top: 21px;
   height: 100%;
+  width: 255px;
+  border: 2px solid black;
 }
 
 ul li.item-menu{
